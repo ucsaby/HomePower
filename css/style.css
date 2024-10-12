@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #f0f0f0;
+  --dark-color: darkgray;
+  --light-color: white;
+  --highlight-color: #f8be3b;
+  --text-color: black;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--primary-color);
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--highlight-color);
+}
+
+/* Fonturi predefinite */
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+/*font-size*/
+.font-size-xsmall {
+  font-size: 10px;
+}
+
+.font-size-small {
+  font-size: 12px;
+}
+
+.font-size-medium {
+  font-size: 14px;
+}
+
+.font-size-large {
+  font-size: 16px;
+}
+
+/* Clase predefinite */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-arround {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+/* clase custom */
+
+.logo {
+  width: 250px;
+}
+
+.navbar {
+  background-color: var(--light-color);
+  padding: 10px 0;
+}
