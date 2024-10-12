@@ -5,7 +5,7 @@
 
 :root {
   --primary-color: #f0f0f0;
-  --dark-color: darkgray;
+  --dark-color: rgb(77, 77, 77);
   --light-color: white;
   --highlight-color: #f8be3b;
   --text-color: black;
@@ -16,13 +16,20 @@ body {
   background-color: var(--primary-color);
 }
 
-a {
+.nav-links a {
   all: unset;
   cursor: pointer;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-align: center;
+  min-width: 50px;
 }
 
-a:hover {
-  color: var(--highlight-color);
+.nav-links a:hover {
+  background-color: var(--highlight-color);
+  color: var(--light-color);
 }
 
 /* Fonturi predefinite */
@@ -44,11 +51,11 @@ a:hover {
 }
 
 .font-size-medium {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .font-size-large {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 /* Clase predefinite */
@@ -84,7 +91,7 @@ a:hover {
 }
 
 .gap-20 {
-  gap: 20px;
+  gap: 10px;
 }
 
 /* clase custom */
