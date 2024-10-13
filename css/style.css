@@ -18,10 +18,13 @@ body {
 
 .nav-links a {
   all: unset;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   cursor: pointer;
   /*background-color: var(--dark-color);*/
   color: var(--dark-color);
-  padding: 6px 10px;
+  padding: 6px 15px;
   text-align: center;
   min-width: 40px;
 }
@@ -97,7 +100,8 @@ body {
 /* clase custom */
 
 .logo {
-  width: 200px;
+  width: 250px;
+  margin: 5px 0;
 }
 
 .container {
@@ -107,7 +111,16 @@ body {
 }
 
 .navbar {
+  height: 60px;
   background-color: var(--light-color);
   padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.content-container {
+  min-height: 160px;
+  background-color: var(--light-color);
+  padding: 30px 30px;
   border-radius: 50px;
 }

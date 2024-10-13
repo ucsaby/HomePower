@@ -4,26 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="navbar flex-row justify-arround items-center gap-10">
+      <div class="navbar flex-row justify-between items-center gap-10">
         <div class="logo">
           <a href="../index.html"
             ><img
-              src="https://pixelspace.ro/wp-content/uploads/2024/10/logo.png"
+              src="../img/logo_HomePower.png"
               alt="HomePower"
               class="logo"
             />
           </a>
         </div>
-        <div class="nav-links flex-row gap-20">
-          <a href="admin.html">Admin</a>
-          <a href="cart.html">Cart</a>
+        <div class="nav-links flex-row gap-20 font-size-medium">
+          <a href="admin.html" class="flex-row items-center"
+            ><i class="material-icons-outlined">settings</i> Admin panel</a
+          >
+          <a href="cart.html">
+            <i class="material-icons-outlined">local_mall</i> Cart</a
+          >
         </div>
       </div>
+      <div class="content-container">Admin Panel</div>
     </div>
-    <h1>admin</h1>
   </body>
 </html>
