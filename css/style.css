@@ -16,6 +16,10 @@ body {
   background-color: var(--primary-color);
 }
 
+a {
+  all: unset;
+}
+
 .nav-links a {
   all: unset;
   display: flex;
@@ -59,6 +63,12 @@ body {
 
 .font-size-large {
   font-size: 22px;
+}
+
+/* Spacer */
+
+.spacer-30 {
+  height: 30px;
 }
 
 /* Clase predefinite */
@@ -105,22 +115,95 @@ body {
 }
 
 .container {
-  width: 95%;
   margin: auto;
   margin-top: 20px;
+  max-width: 1400px;
 }
 
 .navbar {
   height: 60px;
   background-color: var(--light-color);
   padding: 10px 30px;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
+.page-title {
+  margin-bottom: 20px;
+}
+
+/*Card design*/
+
 .content-container {
-  min-height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  text-align: center;
+  min-width: 270px;
   background-color: var(--light-color);
-  padding: 30px 30px;
-  border-radius: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.card-container:hover img {
+  scale: 1.01;
+}
+
+.card-image {
+  background-color: #ebf0f5;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 60px 10px 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.card-details li {
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.card-price {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--highlight-color);
+  margin: 10px 0 16px;
+}
+
+.card-button {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  /*background-color: var(--highlight-color);*/
+  border: 1px solid #ebebeb;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.card-button:hover {
+  border: 1px solid hsl(0, 0%, 80%, 0);
+  background-color: var(--highlight-color);
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.card-promo {
+  position: relative;
+  top: 15px;
+  right: 10px;
+  padding: 5px;
+  background-color: var(--highlight-color);
+  width: 50px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
 }
