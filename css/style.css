@@ -4,8 +4,8 @@
 }
 
 :root {
-  --primary-color: #f0f0f0;
-  --dark-color: rgb(77, 77, 77);
+  --primary-color: #e1eaf5;
+  --dark-color: #304154;
   --light-color: white;
   --highlight-color: #f8be3b;
   --text-color: black;
@@ -19,15 +19,15 @@ body {
 .nav-links a {
   all: unset;
   cursor: pointer;
-  background-color: var(--dark-color);
-  color: var(--light-color);
+  /*background-color: var(--dark-color);*/
+  color: var(--dark-color);
   padding: 6px 10px;
-  border-radius: 4px;
   text-align: center;
-  min-width: 50px;
+  min-width: 40px;
 }
 
 .nav-links a:hover {
+  border-radius: 50px;
   background-color: var(--highlight-color);
   color: var(--light-color);
 }
@@ -97,10 +97,17 @@ body {
 /* clase custom */
 
 .logo {
-  width: 250px;
+  width: 200px;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .navbar {
   background-color: var(--light-color);
-  padding: 10px 0;
+  padding: 10px 30px;
+  border-radius: 50px;
 }
