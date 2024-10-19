@@ -4,15 +4,16 @@
 }
 
 :root {
-  --primary-color: #e1eaf5;
+  --primary-color: #d7dbe0;
   --dark-color: #304154;
   --light-color: white;
-  --highlight-color: #f8be3b;
+  --highlight-color: #ffaa29;
   --text-color: black;
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Saira", sans-serif;
+  font-style: normal;
   background-color: var(--primary-color);
 }
 
@@ -111,7 +112,6 @@ a {
 
 .logo {
   width: 250px;
-  margin: 5px 0;
   cursor: pointer;
 }
 
@@ -119,14 +119,15 @@ a {
   margin: auto;
   margin-top: 20px;
   max-width: 1400px;
+  background-color: white;
+  padding: 10px 30px 15px;
+  border-radius: 30px;
 }
 
 .navbar {
   height: 60px;
   background-color: var(--light-color);
-  padding: 10px 30px;
-  border-radius: 50px;
-  margin-bottom: 20px;
+  padding: 10px 0 10px;
 }
 
 .page-title {
@@ -138,25 +139,29 @@ a {
 .content-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  gap: 26px;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .card-container {
+  flex: 0 1 calc(25% - 20px);
+  box-sizing: border-box;
   text-align: center;
-  min-width: 270px;
   background-color: var(--light-color);
-  padding: 30px;
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(69, 69, 158, 0.15) 0px 40px 70px -60px,
+    rgba(56, 87, 107, 0.15) 0px 30px 60px -0px;
 }
 
 .card-container:hover {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(69, 69, 158, 0.25) 0px 50px 100px -20px,
+    rgba(111, 111, 156, 0.25) 0px 50px 100px -20px,
     rgba(56, 87, 107, 0.3) 0px 30px 60px -30px;
 }
 
@@ -166,11 +171,11 @@ a {
 
 .card-image {
   position: relative;
-  background-color: #ebf0f5;
-  width: 260px;
-  height: 260px;
-  border-radius: 30px;
-  margin: 0 auto 15px;
+  background-color: var(--primary-color);
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,7 +194,7 @@ a {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: rgb(252, 54, 54);
+  background-color: rgb(215, 65, 65);
   color: white;
   padding: 5px 10px;
   font-size: 14px;
@@ -200,18 +205,18 @@ a {
 
 .card-product-category {
   font-size: 13px;
-  color: var(--highlight-color);
+  color: #a2b1c2;
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   margin: 2px 0 15px;
   color: var(--dark-color);
 }
 
 .card-details li {
-  font-size: 14px;
+  font-size: 15px;
   list-style-type: none;
   color: #7b8694;
 }
@@ -224,17 +229,19 @@ a {
 }
 
 .card-button {
-  margin: auto;
   text-align: center;
-  width: 80%;
-  border: 1px solid #ebebeb;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
   padding: 12px;
-  border-radius: 50px;
+  border: 1px solid rgb(223, 228, 230);
+  margin: 0 10px 10px;
+  border-radius: 20px;
 }
 
 .card-button:hover {
-  border: 1px solid hsl(0, 0%, 80%, 0);
   background-color: var(--highlight-color);
-  color: var(--light-color);
+  color: #ebf0f5;
   cursor: pointer;
+  border: 1px solid var(--highlight-color);
 }
