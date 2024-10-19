@@ -170,6 +170,10 @@ a {
   transform: scale(1.02);
 }
 
+.card-container:hover .card-image {
+  background-color: #ebf0f5;
+}
+
 .card-image {
   position: relative;
   background-color: var(--primary-color);
