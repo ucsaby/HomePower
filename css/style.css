@@ -154,6 +154,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  margin-bottom: 30px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(69, 69, 158, 0.15) 0px 40px 70px -60px,
     rgba(56, 87, 107, 0.15) 0px 30px 60px -0px;
@@ -194,12 +195,13 @@ a {
   position: absolute;
   top: 20px;
   left: 20px;
+  text-transform: uppercase;
   background-color: rgb(215, 65, 65);
   color: white;
   padding: 5px 10px;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 10px;
   z-index: 1;
 }
 
