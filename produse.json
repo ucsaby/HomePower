@@ -1,0 +1,202 @@
+[
+  {
+    "name": "HP2880CO",
+    "details": "The new Home Power convection oven with innovative heating technology ensures perfect baking results every time.",
+    "caracteristica-1": "70 L capacity",
+    "caracteristica-2": "Dual convection fans",
+    "caracteristica-3": "Touch control panel",
+    "categorie": "convection ovens",
+    "price": 1620,
+    "imageURL": ""
+  },
+  {
+    "name": "HP3000CO",
+    "details": "Advanced convection oven with smart cooking functions for precision and convenience.",
+    "caracteristica-1": "80 L capacity",
+    "caracteristica-2": "Pyrolytic self-cleaning",
+    "caracteristica-3": "WiFi connectivity",
+    "categorie": "convection ovens",
+    "price": 1890,
+    "imageURL": ""
+  },
+  {
+    "name": "HP3500CO",
+    "details": "High-performance convection oven with triple glass doors for energy efficiency.",
+    "caracteristica-1": "72 L capacity",
+    "caracteristica-2": "Steam cooking option",
+    "caracteristica-3": "Energy Class A++",
+    "categorie": "convection ovens",
+    "price": 2150,
+    "imageURL": ""
+  },
+  {
+    "name": "HP4000CO",
+    "details": "Premium convection oven with professional-grade cooking technology.",
+    "caracteristica-1": "65 L capacity",
+    "caracteristica-2": "Smart sensor cooking",
+    "caracteristica-3": "Interactive display",
+    "categorie": "convection ovens",
+    "price": 2450,
+    "imageURL": ""
+  },
+  {
+    "name": "HP1416WM",
+    "details": "Efficient washing machine with smart load sensing technology for optimal water and energy use.",
+    "caracteristica-1": "8 kg capacity",
+    "caracteristica-2": "1400 RPM spin speed",
+    "caracteristica-3": "Inverter motor",
+    "categorie": "washing machines",
+    "price": 2240,
+    "imageURL": ""
+  },
+  {
+    "name": "HP1600WM",
+    "details": "Quiet and energy-saving washing machine with advanced stain removal programs.",
+    "caracteristica-1": "9 kg capacity",
+    "caracteristica-2": "Steam wash technology",
+    "caracteristica-3": "EcoBubble function",
+    "categorie": "washing machines",
+    "price": 2390,
+    "imageURL": ""
+  },
+  {
+    "name": "HP1800WM",
+    "details": "Powerful and versatile washing machine with a large drum for family-sized loads.",
+    "caracteristica-1": "10 kg capacity",
+    "caracteristica-2": "1600 RPM spin speed",
+    "caracteristica-3": "Auto detergent dosing",
+    "categorie": "washing machines",
+    "price": 2590,
+    "imageURL": ""
+  },
+  {
+    "name": "HP2000WM",
+    "details": "Smart washing machine with integrated WiFi for remote control and monitoring.",
+    "caracteristica-1": "7 kg capacity",
+    "caracteristica-2": "Quick wash in 15 minutes",
+    "caracteristica-3": "Digital inverter motor",
+    "categorie": "washing machines",
+    "price": 2100,
+    "imageURL": ""
+  },
+  {
+    "name": "HPNF550SBS",
+    "details": "Premium side-by-side fridge with large capacity and dual cooling systems for optimal freshness.",
+    "caracteristica-1": "500 L capacity",
+    "caracteristica-2": "Ice and water dispenser",
+    "caracteristica-3": "NoFrost technology",
+    "categorie": "cooling products",
+    "price": 4090,
+    "imageURL": ""
+  },
+  {
+    "name": "HPNR400FF",
+    "details": "Modern French-door fridge with flexible storage compartments and efficient cooling technology.",
+    "caracteristica-1": "400 L capacity",
+    "caracteristica-2": "MultiAirflow system",
+    "caracteristica-3": "Humidity-controlled drawers",
+    "categorie": "cooling products",
+    "price": 3790,
+    "imageURL": ""
+  },
+  {
+    "name": "HPNF300TDF",
+    "details": "Top-freezer fridge with smart storage solutions and advanced temperature regulation.",
+    "caracteristica-1": "300 L capacity",
+    "caracteristica-2": "Full NoFrost system",
+    "caracteristica-3": "LED interior lighting",
+    "categorie": "cooling products",
+    "price": 2950,
+    "imageURL": ""
+  },
+  {
+    "name": "HP1600FR",
+    "details": "Compact and efficient refrigerator with adjustable shelving and energy-saving features.",
+    "caracteristica-1": "160 L capacity",
+    "caracteristica-2": "Automatic defrost",
+    "caracteristica-3": "Energy Class A+",
+    "categorie": "cooling products",
+    "price": 1890,
+    "imageURL": ""
+  },
+  {
+    "name": "HPJetForce580W",
+    "details": "Cordless vacuum cleaner with powerful suction and long battery life for deep cleaning.",
+    "caracteristica-1": "600W power",
+    "caracteristica-2": "40 minutes run time",
+    "caracteristica-3": "HEPA filter",
+    "categorie": "vacuum cleaners",
+    "price": 900,
+    "imageURL": ""
+  },
+  {
+    "name": "HPSpeedVac700W",
+    "details": "Lightweight and powerful vacuum cleaner with turbo brush for effective pet hair removal.",
+    "caracteristica-1": "700W power",
+    "caracteristica-2": "Bagless design",
+    "caracteristica-3": "Cyclonic suction technology",
+    "categorie": "vacuum cleaners",
+    "price": 1200,
+    "imageURL": ""
+  },
+  {
+    "name": "HPUltraVac2000W",
+    "details": "Heavy-duty vacuum cleaner for industrial-level cleaning with multiple cleaning modes.",
+    "caracteristica-1": "2000W power",
+    "caracteristica-2": "Adjustable suction power",
+    "caracteristica-3": "Extra-large dustbin",
+    "categorie": "vacuum cleaners",
+    "price": 1900,
+    "imageURL": ""
+  },
+  {
+    "name": "HPHandyVac250W",
+    "details": "Portable handheld vacuum cleaner with strong suction for quick cleanups.",
+    "caracteristica-1": "250W power",
+    "caracteristica-2": "Cordless with USB charging",
+    "caracteristica-3": "Compact and lightweight",
+    "categorie": "vacuum cleaners",
+    "price": 500,
+    "imageURL": ""
+  },
+  {
+    "name": "HP3200HOB",
+    "details": "Sleek ceramic hob with precise touch controls and advanced safety features.",
+    "caracteristica-1": "4 cooking zones",
+    "caracteristica-2": "Auto safety shut-off",
+    "caracteristica-3": "Boost function",
+    "categorie": "hobs",
+    "price": 1600,
+    "imageURL": ""
+  },
+  {
+    "name": "HP3400HOB",
+    "details": "Induction hob with fast heating and energy-efficient cooking performance.",
+    "caracteristica-1": "4 induction zones",
+    "caracteristica-2": "TouchSlider controls",
+    "caracteristica-3": "Child lock feature",
+    "categorie": "hobs",
+    "price": 1800,
+    "imageURL": ""
+  },
+  {
+    "name": "HP3600HOB",
+    "details": "Gas hob with cast-iron pan supports and integrated ignition for precise flame control.",
+    "caracteristica-1": "4 gas burners",
+    "caracteristica-2": "Flame failure safety device",
+    "caracteristica-3": "Stainless steel finish",
+    "categorie": "hobs",
+    "price": 1450,
+    "imageURL": ""
+  },
+  {
+    "name": "HP3800HOB",
+    "details": "Flexible zone induction hob for larger cookware and convenient cooking.",
+    "caracteristica-1": "3 induction zones",
+    "caracteristica-2": "FlexZone technology",
+    "caracteristica-3": "Residual heat indicator",
+    "categorie": "hobs",
+    "price": 1950,
+    "imageURL": ""
+  }
+]
