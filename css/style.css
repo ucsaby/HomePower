@@ -116,8 +116,7 @@ a {
 }
 
 .container {
-  margin: auto;
-  margin-top: 20px;
+  margin: 20px auto 20px;
   max-width: 1400px;
   background-color: white;
   padding: 10px 30px 15px;
@@ -222,6 +221,7 @@ a {
 .card-title {
   font-size: 24px;
   font-weight: 600;
+  line-height: 25px;
   margin: 2px 0 15px;
   color: var(--dark-color);
 }
