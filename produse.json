@@ -7,7 +7,7 @@
     "caracteristica-3": "Touch control panel",
     "categorie": "convection ovens",
     "price": 1620,
-    "imageURL": ""
+    "imageURL": "img/product_1_1.webp"
   },
   {
     "name": "HP3000CO",
@@ -17,7 +17,7 @@
     "caracteristica-3": "WiFi connectivity",
     "categorie": "convection ovens",
     "price": 1890,
-    "imageURL": ""
+    "imageURL": "img/product_1_2.webp"
   },
   {
     "name": "HP3500CO",
@@ -27,7 +27,7 @@
     "caracteristica-3": "Energy Class A++",
     "categorie": "convection ovens",
     "price": 2150,
-    "imageURL": ""
+    "imageURL": "img/product_1_3.webp"
   },
   {
     "name": "HP4000CO",
@@ -37,7 +37,7 @@
     "caracteristica-3": "Interactive display",
     "categorie": "convection ovens",
     "price": 2450,
-    "imageURL": ""
+    "imageURL": "img/product_1_4.webp"
   },
   {
     "name": "HP1416WM",
@@ -47,7 +47,7 @@
     "caracteristica-3": "Inverter motor",
     "categorie": "washing machines",
     "price": 2240,
-    "imageURL": ""
+    "imageURL": "img/product_2_1.webp"
   },
   {
     "name": "HP1600WM",
@@ -57,7 +57,7 @@
     "caracteristica-3": "EcoBubble function",
     "categorie": "washing machines",
     "price": 2390,
-    "imageURL": ""
+    "imageURL": "img/product_2_2.webp"
   },
   {
     "name": "HP1800WM",
@@ -67,7 +67,7 @@
     "caracteristica-3": "Auto detergent dosing",
     "categorie": "washing machines",
     "price": 2590,
-    "imageURL": ""
+    "imageURL": "img/product_2_3.webp"
   },
   {
     "name": "HP2000WM",
@@ -77,7 +77,7 @@
     "caracteristica-3": "Digital inverter motor",
     "categorie": "washing machines",
     "price": 2100,
-    "imageURL": ""
+    "imageURL": "img/product_2_4.webp"
   },
   {
     "name": "HPNF550SBS",
@@ -87,7 +87,7 @@
     "caracteristica-3": "NoFrost technology",
     "categorie": "cooling products",
     "price": 4090,
-    "imageURL": ""
+    "imageURL": "img/product_3_1.webp"
   },
   {
     "name": "HPNR400FF",
@@ -97,7 +97,7 @@
     "caracteristica-3": "Humidity-controlled drawers",
     "categorie": "cooling products",
     "price": 3790,
-    "imageURL": ""
+    "imageURL": "img/product_3_2.webp"
   },
   {
     "name": "HPNF300TDF",
@@ -107,7 +107,7 @@
     "caracteristica-3": "LED interior lighting",
     "categorie": "cooling products",
     "price": 2950,
-    "imageURL": ""
+    "imageURL": "img/product_3_3.webp"
   },
   {
     "name": "HP1600FR",
@@ -117,7 +117,7 @@
     "caracteristica-3": "Energy Class A+",
     "categorie": "cooling products",
     "price": 1890,
-    "imageURL": ""
+    "imageURL": "img/product_3_4.webp"
   },
   {
     "name": "HPJetForce580W",
@@ -127,7 +127,7 @@
     "caracteristica-3": "HEPA filter",
     "categorie": "vacuum cleaners",
     "price": 900,
-    "imageURL": ""
+    "imageURL": "img/product_4_1.webp"
   },
   {
     "name": "HPSpeedVac700W",
@@ -137,7 +137,7 @@
     "caracteristica-3": "Cyclonic suction technology",
     "categorie": "vacuum cleaners",
     "price": 1200,
-    "imageURL": ""
+    "imageURL": "img/product_4_2.webp"
   },
   {
     "name": "HPUltraVac2000W",
@@ -147,7 +147,7 @@
     "caracteristica-3": "Extra-large dustbin",
     "categorie": "vacuum cleaners",
     "price": 1900,
-    "imageURL": ""
+    "imageURL": "img/product_4_3.webp"
   },
   {
     "name": "HPHandyVac250W",
@@ -157,7 +157,7 @@
     "caracteristica-3": "Compact and lightweight",
     "categorie": "vacuum cleaners",
     "price": 500,
-    "imageURL": ""
+    "imageURL": "img/product_4_4.webp"
   },
   {
     "name": "HP3200HOB",
@@ -167,7 +167,7 @@
     "caracteristica-3": "Boost function",
     "categorie": "hobs",
     "price": 1600,
-    "imageURL": ""
+    "imageURL": "img/product_5_1.webp"
   },
   {
     "name": "HP3400HOB",
@@ -177,7 +177,7 @@
     "caracteristica-3": "Child lock feature",
     "categorie": "hobs",
     "price": 1800,
-    "imageURL": ""
+    "imageURL": "img/product_5_2.webp"
   },
   {
     "name": "HP3600HOB",
@@ -187,7 +187,7 @@
     "caracteristica-3": "Stainless steel finish",
     "categorie": "hobs",
     "price": 1450,
-    "imageURL": ""
+    "imageURL": "img/product_5_3.webp"
   },
   {
     "name": "HP3800HOB",
@@ -197,6 +197,6 @@
     "caracteristica-3": "Residual heat indicator",
     "categorie": "hobs",
     "price": 1950,
-    "imageURL": ""
+    "imageURL": "img/product_5_4.webp"
   }
 ]
