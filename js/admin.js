@@ -16,19 +16,23 @@ function displayProducts() {
             (product) => `
             <tr>
               <td>
-                <div class="admin-image-container"><img class="admin-image" src="../${product.imageURL}"></td></div>
+                <div class="admin-image-container"><img class="admin-image" src="../${
+                  product.imageURL
+                }"></div>
               </td>
               <td>
                 <p class="admin-name">${product.name}</p>
               </td>
               <td>
-                <div class="admin-category-container"><p class="admin-category">${product.category}</p></div>
+                <div class="admin-category-container"><p class="admin-category">${
+                  product.category
+                }</p></div>
               </td>
               <td>
                 <p class="admin-price">${product.price} lei</p>
               </td>
               <td>
-                <p class="admin-promo">${product.promo}</p>
+                ${product.promo ? `<p class="admin-promo">Promo</p>` : ``}
               </td>
               <td>
                 <p class="admin-details">${product.details}</p>
@@ -39,10 +43,8 @@ function displayProducts() {
                 <p class="admin-feature">${product.feature3}</p>
               </td>
               <td>
-                <button><i class="material-icons-outlined">edit</i>edit</button>
-              </td>
-              <td>
-                <button><i class="material-icons-outlined">delete</i>delete</button>
+                <div  class="admin-show-on-hover"><button><i class="material-icons-outlined">edit</i>edit</button>
+                <button><i class="material-icons-outlined">delete</i>delete</button></div>
               </td>
             </tr>
           `

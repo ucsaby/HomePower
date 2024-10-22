@@ -260,25 +260,39 @@ a {
 /* Admin page */
 
 table {
+  width: 100%;
   border-collapse: separate;
   border-spacing: 0 10px;
   background-color: #f3fafd;
   padding: 20px;
-  width: 100%;
   border-radius: 50px;
 }
 
 th {
   background-color: #f3fafd;
-  padding: 0px 0px 15px;
+  padding-bottom: 15px;
   font-size: 11px;
   color: #a2b1c2;
   text-transform: uppercase;
+  text-align: left;
+}
+
+th:nth-child(2),
+th:nth-child(6),
+th:nth-child(7) {
+  padding-left: 10px;
+}
+
+th:nth-child(1),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5) {
+  text-align: center;
 }
 
 tr {
+  background-color: #fff;
   border-radius: 50px;
-  background-color: rgb(255, 255, 255);
 }
 
 tr td:first-child {
@@ -293,36 +307,19 @@ tr td:last-child {
 
 td {
   padding: 10px 0px 10px 10px;
+  overflow: hidden;
 }
+
 td:nth-child(1) {
   width: 60px;
 }
-td:nth-child(3) {
-}
-/* details*/
+
 td:nth-child(6) {
   max-width: 350px;
 }
-/* features*/
+
 td:nth-child(7) {
   max-width: 120px;
-}
-/* edit button */
-td:nth-child(8) {
-  margin-right: 10px;
-  max-width: 40px;
-}
-/* delete button */
-td:nth-child(9) {
-  max-width: 60px;
-  padding-right: 10px;
-}
-
-th:nth-child(2),
-th:nth-child(6),
-th:nth-child(7) {
-  padding-left: 10px;
-  text-align: left;
 }
 
 .admin-image-container {
@@ -331,6 +328,7 @@ th:nth-child(7) {
   background-color: white;
   border-radius: 50%;
 }
+
 .admin-image {
   width: 70%;
   margin: 15%;
@@ -344,7 +342,7 @@ th:nth-child(7) {
 .admin-category {
   font-size: 10px;
   background: #8d9dad;
-  padding: 10px 10px;
+  padding: 10px;
   border-radius: 40px;
   color: #ffffff;
 }
@@ -368,7 +366,6 @@ th:nth-child(7) {
 .admin-feature {
   font-size: 11px;
   color: #656668;
-  border-right: 1px solid rgb(202, 202, 202);
 }
 
 td button {
@@ -377,9 +374,11 @@ td button {
   align-items: center;
   background: none;
   border: none;
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 50px;
   font-size: 12px;
+  color: #8c92a1;
+  cursor: pointer;
 }
 
 td button:hover {
@@ -388,10 +387,21 @@ td button:hover {
 }
 
 td button:hover .material-icons-outlined {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 table .material-icons-outlined {
-  color: rgb(140, 146, 161);
+  color: #8c92a1;
   margin-right: 5px;
+}
+
+.admin-show-on-hover {
+  display: flex;
+}
+
+.admin-promo {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  font-size: 10px;
 }
