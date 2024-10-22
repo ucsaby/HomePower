@@ -1,6 +1,4 @@
-const productsTableBody = document
-  .getElementById("products-table")
-  .querySelector("tbody");
+const productsTableBody = document.getElementById("list-container");
 
 document.addEventListener("DOMContentLoaded", displayProducts);
 
@@ -14,39 +12,42 @@ function displayProducts() {
         (productsTableBody.innerHTML = products
           .map(
             (product) => `
-            <tr>
-              <td>
-                <div class="admin-image-container"><img class="admin-image" src="../${
-                  product.imageURL
-                }"></div>
-              </td>
-              <td>
-                <p class="admin-name">${product.name}</p>
-              </td>
-              <td>
-                <div class="admin-category-container"><p class="admin-category">${
+              <div class="list-element">
+                <div class="list-image">
+                  <div class="list-image-container">
+                    <img class="admin-image" src="../${product.imageURL}">
+                  </div>
+                </div>
+                <div class="list-name"><p class="admin-name">${
+                  product.name
+                }</p></div>
+                <div class="list-category-container"><p class="list-category text-center">${
                   product.category
                 }</p></div>
-              </td>
-              <td>
-                <p class="admin-price">${product.price} lei</p>
-              </td>
-              <td>
-                ${product.promo ? `<p class="admin-promo">Promo</p>` : ``}
-              </td>
-              <td>
-                <p class="admin-details">${product.details}</p>
-              </td>
-              <td>
-                <p class="admin-feature">${product.feature1}</p>
-                <p class="admin-feature">${product.feature2}</p>
-                <p class="admin-feature">${product.feature3}</p>
-              </td>
-              <td>
-                <div  class="admin-show-on-hover"><button><i class="material-icons-outlined">edit</i>edit</button>
-                <button><i class="material-icons-outlined">delete</i>delete</button></div>
-              </td>
-            </tr>
+                <div class="list-price"><p class="admin-price">${
+                  product.price
+                } lei</p></div>
+                <div class="list-promo">${
+                  product.promo
+                    ? `<p class="admin-promo">Promo</p>`
+                    : `<p class="admin-no-promo">No Promo</p>`
+                }</div>
+                
+                <div class="list-details">
+                  <div class="list-details">${product.details}</div>
+                </div>
+                <div class="list-features">
+                  <p class="admin-feature">${product.feature1}</p>
+                  <p class="admin-feature">${product.feature2}</p>
+                  <p class="admin-feature">${product.feature3}</p>
+                </div>
+                <div class="list-button">
+                  <div class="admin-buttons">
+                    <button><i class="material-icons-outlined">edit</i>edit</button>
+                    <button><i class="material-icons-outlined">delete</i>delete</button>
+                  </div>
+                </div>
+              </div>
           `
           )
           .join(""))
